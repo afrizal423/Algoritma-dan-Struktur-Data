@@ -3,8 +3,6 @@
 	Author		: mramirid
 */
 
-// WARNING: Written in C++ instead of C, Sorry.
-
 #include <iostream>
 
 #ifndef nullptr
