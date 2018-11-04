@@ -379,7 +379,7 @@ struct linked_list {
 Operasi yang dapat diterapkan *linked list* sebenarnya cukup banyak, tapi kita hanya akan mengimplementasikan beberapa fungsi seperti yang terdapat pada kode program di bawah ini:
 
 - **Contoh_3.c** [Link to File](../src/Struktur_Data/Contoh_3.c)
-    - [VERSI LENGKAP (C++)](../src/Struktur_Data/C++/Contoh_3.1.cpp)
+    - [VERSI LENGKAP](../src/Struktur_Data/Contoh_3.1.c)
 
 ```c
 #include <stdio.h>
@@ -596,7 +596,7 @@ Pada pembuatan struktur data *linked list* di atas, kita hanya mengimplementasik
 - `get_size()`, digunakan untuk mendapatkan jumlah simpul di dalam *linked list*.
 - `print_linked_list()`, digunakan untuk mencetak data yang tersimpan di setiap simpul di dalam *linked list*.
 
-Di dalam file versi lengkapnya: [Contoh_3.1.cpp](../src/Struktur_Data/C++/Contoh_3.1.cpp), saya sudah kembangkan sendiri implementasi dari *linked list* di atas dengan mendefinisikan operasi-operasi berikut:
+Di dalam file versi lengkapnya: [Contoh_3.1.c](../src/Struktur_Data/Contoh_3.1.c), saya sudah kembangkan sendiri implementasi dari *linked list* di atas dengan mendefinisikan operasi-operasi berikut:
 
 - `contains(value)`, fungsi untuk memeriksa apakah data ada di dalam *linked list* atau tidak.
 - `index_of(value)`, fungsi untuk mengembalikan index dari simpul yang berisi `data` = value.
